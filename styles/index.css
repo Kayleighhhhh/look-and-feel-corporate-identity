@@ -4,7 +4,7 @@
 
 /* Header  */
 
-header{
+header {
     display: grid;
     grid-template-columns: max-content 1fr;
 
@@ -25,7 +25,7 @@ header{
         border: unset;
 
         &.is-open img {
-            content: url("./svg/x2.svg");
+            content: url("/svg/x2.svg");
         }
     }
 
