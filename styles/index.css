@@ -7,10 +7,11 @@
 header {
     display: grid;
     grid-template-columns: max-content 1fr;
+    justify-items: end;
 
     h1 {
         grid-column: 1;
-        margin: unset;
+        margin: 0 2em;
         z-index: 11;
 
         img {
@@ -65,9 +66,9 @@ header {
             position: static;
             translate: 0;
         
-            max-width: unset;
+            max-width: 55rem;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             padding: unset;
             border-radius: 5em;
         }
