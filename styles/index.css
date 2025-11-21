@@ -26,7 +26,7 @@ header {
         border: unset;
 
         &.is-open img {
-            content: url("/svg/x2.svg");
+            content: url("../svg/x2.svg");
         }
     }
 
