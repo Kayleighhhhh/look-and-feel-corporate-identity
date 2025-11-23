@@ -56,7 +56,7 @@ header {
         }
     }
 
-     @media (min-width: 700px) {
+     @media (min-width: 800px) {
 
         .navbtn {
             display: none;
