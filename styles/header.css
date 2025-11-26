@@ -50,7 +50,7 @@ header {
         }
     }
 
-     @media (min-width: 1000px) {
+    @media (min-width: 1000px) {
 
         .navbtn {
             display: none;
@@ -59,7 +59,7 @@ header {
         .menusmallscreen {
             position: static;
             translate: 0;
-        
+
             max-width: 55rem;
             display: flex;
             justify-content: center;
@@ -74,6 +74,10 @@ header {
             align-self: center;
             padding: 0 1em;
 
+            &:hover {
+                color: var(--secondary-detail-color);
+            }
+
         }
-     }
+    }
 }
