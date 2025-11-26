@@ -49,6 +49,7 @@ main {
             grid-column: 2/3;
             padding: 0 1em;
             text-align: right;
+            border-radius: 15px 0 0 0;
 
             @media (min-width: 700px) {
                 border-radius: 15px;
@@ -67,9 +68,11 @@ main {
     .home-2 {
         background-image: url(../assets/boeken/Alphabetum-ebraicum-vetus.png);
         background-repeat: no-repeat;
-        background-position: center top;
+        background-position: right;
         background-size: cover;
         height: 40em;
+        display: grid;
+        grid-template-rows: 1fr max-content;
 
         .gradient2 {
             position: absolute;
@@ -96,6 +99,13 @@ main {
         .button {
             position: relative;
             z-index: 2;
+            margin: 1em;
+            justify-self: end;
+            /* background-image: url("arrow-up-right.svg");
+            background-size: 1, 5em;
+            background-repeat: no-repeat;
+            background-position: 8.6em .5em; */
+            padding: 1em;
         }
 
     }
