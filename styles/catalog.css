@@ -19,7 +19,7 @@ main {
         display: flex;
         padding: 5px;
         justify-content: center;
-        /* gap: 5px; */
+        gap: 5px;
         /* background-color: rgb(0, 38, 70); */
         padding: 10px;
         border-radius: 10px;
@@ -27,20 +27,22 @@ main {
 
 
         .filter {
-            width: 250%;
+            width: 300%;
             /* flex-grow: 1; */
             border-radius: 5px;
-            border: 1.8px black solid;
+            border: .1em solid var(--text-color-lightbg);
+            background-color: var(--primary-detail-color);
+            color: var(--text-color-darkbg);
         }
 
         .search {
-            width: 250%;
+            width: 300%;
             display: flex;
-            border-color: black;
-
+            /* border: .1em black solid; */
+            flex-grow: 1;
 
             input {
-                flex-grow: 1;
+                border: .1em solid var(--text-color-lightbg);
                 border-radius: 5px;
             }
 
@@ -127,14 +129,14 @@ main {
         h2 {
             margin: 15px 0 0 10px;
             grid-area: heading;
-            color: #BF9A5D;
+            color: var(--text-color-darkbg);
             text-shadow: 2px 2px 2px black;
         }
 
         p {
             margin: 0 0 0 10px;
             grid-area: paragraaf;
-            color: #BF9A5D;
+            color: var(--text-color-darkbg);
             text-shadow: 2px 2px 2px black;
         }
 
@@ -150,7 +152,7 @@ main {
             height: fit-content;
             padding: 0.3em;
             text-decoration: none;
-            color: white;
+            color: var(--text-color-darkbg);
             text-shadow: 2px 2px 2px black;
         }
     }
