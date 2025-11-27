@@ -25,7 +25,7 @@ Deze sprint heb ik gewerkt aan het gebruiken van een externe stylesheet en heb h
 
 Deze website is opgebouwd met behulp van HTML en CSS. De voorpagina heeft een header met navigatie, main met content en een footer. Ik ben mobile first begonnen voor deze website en heb hem daarna aangepast met media queries voor grote schermen.
 
-###Fouten
+### Fouten
 
 Op smallscreen in de homepage is het woord gedigitaliseerde te lang waardoor je horizontaal kan scrollen.
 
